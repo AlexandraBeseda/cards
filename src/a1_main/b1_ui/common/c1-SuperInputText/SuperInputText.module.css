@@ -1,0 +1,20 @@
+.superInput {
+    margin: 10px;
+    padding: 10px;
+    border: 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+.errorInput {
+    margin: 10px;
+    /**  background: red;*/
+    padding: 10px;
+    font-size: 16px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.error {
+    color: red;
+}
