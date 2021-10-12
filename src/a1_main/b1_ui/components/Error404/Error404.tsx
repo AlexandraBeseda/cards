@@ -1,7 +1,7 @@
 import React from 'react'
 import s from './Error404.module.css'
 
-function Error404() {
+export const Error404:React.FC=()=> {
     return (
         <div className={s.main}>
             <div className={s.text}>404</div>
@@ -11,4 +11,3 @@ function Error404() {
     )
 }
 
-export default Error404
